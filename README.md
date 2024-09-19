@@ -18,10 +18,10 @@ Execute the Python script to perform data analysis.
 This project is ideal for learning and demonstrating basic CRUD operations with Spring Boot and RESTful services, and for performing data analysis with a Python client.
 
 <h1>StudentRestController.java </h1>
-Description: This file defines a REST controller for managing student data. It uses Spring Boot's @RestController and @RequestMapping annotations to handle HTTP requests. The /api/students endpoint is mapped to the findAll method, which retrieves a list of all students from the database using the StudentDAO.
+<h3>Description:</h3> This file defines a REST controller for managing student data. It uses Spring Boot's @RestController and @RequestMapping annotations to handle HTTP requests. The /api/students endpoint is mapped to the findAll method, which retrieves a list of all students from the database using the StudentDAO.
 
 <h1>StudentDAO.java </h1>
-Description: This interface defines the Data Access Object (DAO) methods for managing Student entities. It includes methods for:
+<h3>Description:</h3> This interface defines the Data Access Object (DAO) methods for managing Student entities. It includes methods for:
 
 save(Student theStudent): Save a new student.
 findById(Integer id): Retrieve a student by ID.
@@ -30,8 +30,8 @@ update(Student theStudent): Update an existing student.
 delete(Integer id): Delete a student by ID.
 Implementations of this interface handle the actual database operations.
 
-StudentDAOImpl.java
-Description: This class implements the StudentDAO interface using JPA/Hibernate. It provides concrete implementations for CRUD operations:
+<h1>StudentDAOImpl.java</h1>
+<h3>Description:</h3> This class implements the StudentDAO interface using JPA/Hibernate. It provides concrete implementations for CRUD operations:
 
 save(Student theStudent): Persists a new student entity.
 findById(Integer id): Finds a student by ID.
@@ -40,19 +40,19 @@ update(Student theStudent): Merges changes to an existing student entity.
 delete(Integer id): Removes a student entity by ID.
 Transactional annotations ensure database operations are managed correctly.
 
-Student.java
-Description: This class represents the Student entity mapped to the student table in the database. It includes fields for id, firstName, lastName, email, and grade, with appropriate JPA annotations for persistence. It also provides getters, setters, and a toString method for displaying student information.
+<h1>Student.java</h1>
+<h3>Description:</h3> This class represents the Student entity mapped to the student table in the database. It includes fields for id, firstName, lastName, email, and grade, with appropriate JPA annotations for persistence. It also provides getters, setters, and a toString method for displaying student information.
 
-CruddemoApplication.java
-Description: The main entry point for the Spring Boot application. It contains the main method to run the application and a CommandLineRunner bean for executing CRUD operations at startup. It includes methods for:
+<h1>CruddemoApplication.java</h1>
+<h3>Description:</h3> The main entry point for the Spring Boot application. It contains the main method to run the application and a CommandLineRunner bean for executing CRUD operations at startup. It includes methods for:
 
 Creating a new student.
 Reading, updating, and deleting students.
 Querying and displaying student data.
 The file demonstrates how to interact with the StudentDAO in a Spring Boot environment.
 
-student_analysis.py
-Description: A Python script that interacts with the Spring Boot REST API to perform student data analysis. It:
+<h1>student_analysis.py</h1>
+<h3>Description:</h3> A Python script that interacts with the Spring Boot REST API to perform student data analysis. It:
 
 Fetches student data from the /api/students endpoint.
 Identifies the student with the highest and lowest grades.
