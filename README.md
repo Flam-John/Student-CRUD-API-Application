@@ -58,3 +58,24 @@ Fetches student data from the /api/students endpoint.
 Identifies the student with the highest and lowest grades.
 Calculates and prints the average grade of all students.
 This script demonstrates how to consume a RESTful API and perform data processing using Python.
+
+<h1>student_tracker.sql</h1> 
+<h3>Description:</h3>This SQL script is responsible for setting up the database and table structure for the Student CRUD application. It performs the following operations:
+
+<h3>Database Creation:</h3>
+Creates a database named student_tracker if it doesn't already exist.
+Switches the context to the student_tracker database.
+
+<h3>Table Creation:</h3>
+Defines the structure for the student table, which stores student records.
+Fields in the table include:
+id: An auto-incrementing primary key.
+first_name: A VARCHAR field for the student's first name.
+last_name: A VARCHAR field for the student's last name.
+email: A VARCHAR field for the student's email address.
+grade: A DECIMAL(3,2) field for the student's grade, constrained to be between 0.00 and 10.00.
+Table Constraints:
+
+The id field is the primary key.
+A CHECK constraint ensures that the grade value must be within the valid range of 0.00 to 10.00.
+This script sets up the foundational database schema required for the Spring Boot application to perform CRUD operations on student data.
