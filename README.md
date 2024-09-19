@@ -63,10 +63,6 @@ This script demonstrates how to consume a RESTful API and perform data processin
 <h3>Description:</h3>This SQL script is responsible for setting up the database and table structure for the Student CRUD application. 
 <strong>It performs the following operations:</strong>
 
-<h4>Database Creation:</h4>
-Creates a database named student_tracker if it doesn't already exist.
-Switches the context to the student_tracker database.
-
 <h4>Table Creation:</h4>
 Defines the structure for the student table, which stores student records.
 <h3>Fields in the table include:</h3>
