@@ -23,11 +23,11 @@ This project is ideal for learning and demonstrating basic CRUD operations with 
 <h1>StudentDAO.java </h1>
 <h3>Description:</h3> This interface defines the Data Access Object (DAO) methods for managing Student entities. It includes methods for:
 
-save(Student theStudent): Save a new student.<br/> 
-findById(Integer id): Retrieve a student by ID.<br/> 
-findAll(): Retrieve all students.<br/> 
-update(Student theStudent): Update an existing student.<br/> 
-delete(Integer id): Delete a student by ID.<br/> 
+<strong>save(Student theStudent):</strong> Save a new student.<br/> 
+<strong>findById(Integer id):</strong> Retrieve a student by ID.<br/> 
+<strong>findAll():</strong> Retrieve all students.<br/> 
+<strong>update(Student theStudent):</strong> Update an existing student.<br/> 
+<strong>delete(Integer id):</strong> Delete a student by ID.<br/> 
 Implementations of this interface handle the actual database operations.<br/> 
 
 <h1>StudentDAOImpl.java</h1>
