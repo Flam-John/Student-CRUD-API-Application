@@ -21,7 +21,8 @@ This project is ideal for learning and demonstrating basic CRUD operations with 
 <h3>Description:</h3> This file defines a REST controller for managing student data. It uses Spring Boot's @RestController and @RequestMapping annotations to handle HTTP requests. The /api/students endpoint is mapped to the findAll method, which retrieves a list of all students from the database using the StudentDAO.
 
 <h1>StudentDAO.java </h1>
-<h3>Description:</h3> This interface defines the Data Access Object (DAO) methods for managing Student entities. It includes methods for:
+<h3>Description:</h3> This interface defines the Data Access Object (DAO) methods for managing Student entities.<br/> 
+It includes methods for:<br/>
 
 <strong>save(Student theStudent):</strong> Save a new student.<br/> 
 <strong>findById(Integer id):</strong> Retrieve a student by ID.<br/> 
@@ -31,7 +32,8 @@ This project is ideal for learning and demonstrating basic CRUD operations with 
 Implementations of this interface handle the actual database operations.<br/> 
 
 <h1>StudentDAOImpl.java</h1>
-<h3>Description:</h3> This class implements the StudentDAO interface using JPA/Hibernate. It provides concrete implementations for CRUD operations:
+<h3>Description:</h3> This class implements the StudentDAO interface using JPA/Hibernate.<br/>
+It provides concrete implementations for CRUD operations:<br/>
 
 <strong>save(Student theStudent):</strong> Persists a new student entity.<br/> 
 <strong>findById(Integer id):</strong> Finds a student by ID.<br/> 
@@ -44,12 +46,12 @@ Transactional annotations ensure database operations are managed correctly.
 <h3>Description:</h3> This class represents the Student entity mapped to the student table in the database. It includes fields for id, firstName, lastName, email, and grade, with appropriate JPA annotations for persistence. It also provides getters, setters, and a toString method for displaying student information.
 
 <h1>CruddemoApplication.java</h1>
-<h3>Description:</h3> The main entry point for the Spring Boot application. It contains the main method to run the application and a CommandLineRunner bean for executing CRUD operations at startup. It includes methods for:
-
-Creating a new student.
-Reading, updating, and deleting students.
-Querying and displaying student data.
-The file demonstrates how to interact with the StudentDAO in a Spring Boot environment.
+<h3>Description:</h3> The main entry point for the Spring Boot application. It contains the main method to run the application and a CommandLineRunner bean for executing CRUD operations at startup.<br/> 
+It includes methods for:<br/>
+Creating a new student.<br/>
+Reading, updating, and deleting students.<br/>
+Querying and displaying student data.<br/>
+The file demonstrates how to interact with the StudentDAO in a Spring Boot environment.<br/>
 
 <h1>student_analysis.py</h1>
 <h3>Description:</h3> A Python script that interacts with the Spring Boot REST API to perform student data analysis.<br/>
