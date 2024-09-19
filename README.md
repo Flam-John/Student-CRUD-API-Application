@@ -52,12 +52,12 @@ Querying and displaying student data.
 The file demonstrates how to interact with the StudentDAO in a Spring Boot environment.
 
 <h1>student_analysis.py</h1>
-<h3>Description:</h3> A Python script that interacts with the Spring Boot REST API to perform student data analysis. It:
-
-Fetches student data from the /api/students endpoint.
-Identifies the student with the highest and lowest grades.
-Calculates and prints the average grade of all students.
-This script demonstrates how to consume a RESTful API and perform data processing using Python.
+<h3>Description:</h3> A Python script that interacts with the Spring Boot REST API to perform student data analysis.<br/>
+It:<br/>
+Fetches student data from the /api/students endpoint.<br/>
+Identifies the student with the highest and lowest grades.<br/>
+Calculates and prints the average grade of all students.<br/>
+This script demonstrates how to consume a RESTful API and perform data processing using Python.<br/>
 
 <h1>student_tracker.sql</h1> 
 <h3>Description:</h3>This SQL script is responsible for setting up the database and table structure for the Student CRUD application. It performs the following operations:
