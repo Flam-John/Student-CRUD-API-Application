@@ -2,7 +2,7 @@
 This project is a simple CRUD (Create, Read, Update, Delete) application for managing student records using Spring Boot and a REST API
 
 <h1> Backend: </h1>
-Spring Boot Application: Manages student data through a RESTful API with endpoints to create, retrieve, update, and delete student records.
+<h3> Spring Boot Application:</h3> Manages student data through a RESTful API with endpoints to create, retrieve, update, and delete student records.
 Student Entity: Represents student data with attributes like id, firstName, lastName, email, and grade.
 DAO Layer: Handles database interactions using JPA/Hibernate with methods for CRUD operations.
 CommandLineRunner: Demonstrates CRUD operations by creating, updating, deleting, and querying student records.
