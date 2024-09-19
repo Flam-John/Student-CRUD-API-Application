@@ -70,7 +70,7 @@ Switches the context to the student_tracker database.
 <h4>Table Creation:</h4>
 Defines the structure for the student table, which stores student records.
 <h3>Fields in the table include:</h3>
-<strong>id:</strong> An auto-incrementing primary key.< br / > 
+<strong>id:</strong> An auto-incrementing primary key.<br/> 
 <strong>first_name:</strong> A VARCHAR field for the student's first name.< br / > 
 <strong>last_name:</strong> A VARCHAR field for the student's last name.< br / > 
 <strong>email:</strong> A VARCHAR field for the student's email address.< br / > 
