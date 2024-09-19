@@ -60,8 +60,7 @@ Calculates and prints the average grade of all students.
 This script demonstrates how to consume a RESTful API and perform data processing using Python.
 
 <h1>student_tracker.sql</h1> 
-<h3>Description:</h3>This SQL script is responsible for setting up the database and table structure for the Student CRUD application. 
-<strong>It performs the following operations:</strong>
+<h3>Description:</h3>This SQL script is responsible for setting up the database and table structure for the Student CRUD application.It performs the following operations:
 
 <h4>Table Creation:</h4>
 Defines the structure for the student table, which stores student records.
