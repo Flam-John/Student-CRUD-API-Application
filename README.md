@@ -47,7 +47,7 @@ Transactional annotations ensure database operations are managed correctly.
 
 <h1>CruddemoApplication.java</h1>
 <h3>Description:</h3> The main entry point for the Spring Boot application. It contains the main method to run the application and a CommandLineRunner bean for executing CRUD operations at startup.<br/> 
-It includes methods for:<br/>
+<h4>It includes methods for:</h4><br/>
 Creating a new student.<br/>
 Reading, updating, and deleting students.<br/>
 Querying and displaying student data.<br/>
@@ -55,7 +55,7 @@ The file demonstrates how to interact with the StudentDAO in a Spring Boot envir
 
 <h1>student_analysis.py</h1>
 <h3>Description:</h3> A Python script that interacts with the Spring Boot REST API to perform student data analysis.<br/>
-It:<br/>
+<h4>It:</h4><br/>
 Fetches student data from the /api/students endpoint.<br/>
 Identifies the student with the highest and lowest grades.<br/>
 Calculates and prints the average grade of all students.<br/>
