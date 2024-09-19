@@ -74,7 +74,7 @@ Defines the structure for the student table, which stores student records.
 <h4>first_name:</h4> A VARCHAR field for the student's first name.
 <h4>last_name:</h4> A VARCHAR field for the student's last name.
 <h4>email:</h4> A VARCHAR field for the student's email address.
-<h4>grade:</h4> A DECIMAL(3,2) field for the student's grade, constrained to be between 0.00 and 10.00.
+<strong>grade:</strong> A DECIMAL(3,2) field for the student's grade, constrained to be between 0.00 and 10.00.
 
 <h3>Table Constraints:</h3>
 The id field is the primary key.
