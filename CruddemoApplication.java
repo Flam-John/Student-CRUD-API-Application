@@ -51,6 +51,7 @@ public class CruddemoApplication {
 		// change first name to "John"
 		System.out.println("Updating student ...");
 		myStudent.setGrade(7.5);
+		//setGrade,setEmail,set...
 
 		// update the student
 		studentDAO.update(myStudent);
@@ -75,14 +76,14 @@ public class CruddemoApplication {
 		int studentId = 1;
 
 		System.out.println("Retrieving student with id: " + studentId);
-    	Student myStudent = studentDAO.findById(studentId);
+    		Student myStudent = studentDAO.findById(studentId);
 
-    	// display student
-    	if (myStudent != null) {
-        	System.out.println("Found the student: " + myStudent);
-    	} else {
-        	System.out.println("Student with id " + studentId + " not found.");
-    	}
+    		// display student
+    		if (myStudent != null) {
+        		System.out.println("Found the student: " + myStudent);
+    		} else {
+        		System.out.println("Student with id " + studentId + " not found.");
+    		}
 
 	}
 
