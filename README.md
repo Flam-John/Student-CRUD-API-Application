@@ -33,12 +33,12 @@ Implementations of this interface handle the actual database operations.<br/>
 <h1>StudentDAOImpl.java</h1>
 <h3>Description:</h3> This class implements the StudentDAO interface using JPA/Hibernate. It provides concrete implementations for CRUD operations:
 
-save(Student theStudent): Persists a new student entity.<br/> 
-findById(Integer id): Finds a student by ID.<br/> 
-findAll(): Retrieves all student records.<br/> 
-update(Student theStudent): Merges changes to an existing student entity.<br/> 
-delete(Integer id): Removes a student entity by ID.<br/> 
-Transactional annotations ensure database operations are managed correctly.<br/> 
+<strong>save(Student theStudent):</strong> Persists a new student entity.<br/> 
+<strong>findById(Integer id):</strong> Finds a student by ID.<br/> 
+<strong>findAll():</strong> Retrieves all student records.<br/> 
+<strong>update(Student theStudent):</strong> Merges changes to an existing student entity.<br/> 
+<strong>delete(Integer id):</strong> Removes a student entity by ID.<br/> 
+Transactional annotations ensure database operations are managed correctly.
 
 <h1>Student.java</h1>
 <h3>Description:</h3> This class represents the Student entity mapped to the student table in the database. It includes fields for id, firstName, lastName, email, and grade, with appropriate JPA annotations for persistence. It also provides getters, setters, and a toString method for displaying student information.
