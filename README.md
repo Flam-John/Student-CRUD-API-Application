@@ -61,7 +61,7 @@ This script demonstrates how to consume a RESTful API and perform data processin
 
 <h1>student_tracker.sql</h1> 
 <h3>Description:</h3>This SQL script is responsible for setting up the database and table structure for the Student CRUD application. 
-<h3>It performs the following operations:</h3>
+<strong>It performs the following operations:</strong>
 
 <h4>Database Creation:</h4>
 Creates a database named student_tracker if it doesn't already exist.
@@ -70,10 +70,10 @@ Switches the context to the student_tracker database.
 <h4>Table Creation:</h4>
 Defines the structure for the student table, which stores student records.
 <h3>Fields in the table include:</h3>
-<h4>id:</h4> An auto-incrementing primary key.
-<h4>first_name:</h4> A VARCHAR field for the student's first name.
-<h4>last_name:</h4> A VARCHAR field for the student's last name.
-<h4>email:</h4> A VARCHAR field for the student's email address.
+<strong>id:</strong> An auto-incrementing primary key.
+<strong>first_name:</strong> A VARCHAR field for the student's first name.
+<strong>last_name:</strong> A VARCHAR field for the student's last name.
+<strong>email:</strong> A VARCHAR field for the student's email address.
 <strong>grade:</strong> A DECIMAL(3,2) field for the student's grade, constrained to be between 0.00 and 10.00.
 
 <h3>Table Constraints:</h3>
