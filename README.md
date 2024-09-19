@@ -2,27 +2,25 @@
 This project is a simple CRUD (Create, Read, Update, Delete) application for managing student records using Spring Boot and a REST API
 
 <h1> Backend: </h1>
-<h3> Spring Boot Application:</h3> Manages student data through a RESTful API with endpoints to create, retrieve, update, and delete student records.
-Student Entity: Represents student data with attributes like id, firstName, lastName, email, and grade.
-DAO Layer: Handles database interactions using JPA/Hibernate with methods for CRUD operations.
-CommandLineRunner: Demonstrates CRUD operations by creating, updating, deleting, and querying student records.
+<h3>Spring Boot Application:</h3> Manages student data through a RESTful API with endpoints to create, retrieve, update, and delete student records.
+<h3>Student Entity:</h3> Represents student data with attributes like id, firstName, lastName, email, and grade.
+<h3>DAO Layer: </h3> Handles database interactions using JPA/Hibernate with methods for CRUD operations.
+<h3>CommandLineRunner:</h3> Demonstrates CRUD operations by creating, updating, deleting, and querying student records.
 
-Frontend (Python Script):
+<h1> Frontend (Python Script): </h1>
 A Python script interacts with the REST API to fetch student data and analyze it.
-Features: Identifies the student with the highest and lowest grades, calculates the average grade of all students, and displays the results.
-Endpoints:
+<h3>Features:</h3> Identifies the student with the highest and lowest grades, calculates the average grade of all students, and displays the results.
+<h3>Endpoints:</h3> GET /api/students: Retrieve all student records.
 
-GET /api/students: Retrieve all student records.
-
-Setup:
+<h1>Setup:</h1> 
 Run the Spring Boot application to start the server.
 Execute the Python script to perform data analysis.
 This project is ideal for learning and demonstrating basic CRUD operations with Spring Boot and RESTful services, and for performing data analysis with a Python client.
 
-StudentRestController.java
+<h1>StudentRestController.java </h1>
 Description: This file defines a REST controller for managing student data. It uses Spring Boot's @RestController and @RequestMapping annotations to handle HTTP requests. The /api/students endpoint is mapped to the findAll method, which retrieves a list of all students from the database using the StudentDAO.
 
-StudentDAO.java
+<h1>StudentDAO.java </h1>
 Description: This interface defines the Data Access Object (DAO) methods for managing Student entities. It includes methods for:
 
 save(Student theStudent): Save a new student.
