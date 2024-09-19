@@ -90,7 +90,7 @@ public class CruddemoApplication {
 
 		// create the student object
 		System.out.println("Creating new student object ...");
-		Student tempStudent = new Student("Mitsos", "Lamp", "mitsos@mail.com", 7.43);
+		Student tempStudent = new Student("first_name", "Last_name", "email", grade);
 
 		// save the student object
 		System.out.println("Saving the student ...");
