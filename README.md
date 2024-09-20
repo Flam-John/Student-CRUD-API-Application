@@ -53,6 +53,9 @@ Reading, updating, and deleting students.<br/>
 Querying and displaying student data.<br/>
 The file demonstrates how to interact with the StudentDAO in a Spring Boot environment.<br/>
 
+![Screenshot 2024-09-20 143745](https://github.com/user-attachments/assets/2c482e03-e65c-4176-aedd-288daacfe1c8)
+
+
 <h1>student_analysis.py</h1>
 <h3>Description:</h3> A Python script that interacts with the Spring Boot REST API to perform student data analysis.
 <h4>It:</h4>
