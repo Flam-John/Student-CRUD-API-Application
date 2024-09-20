@@ -54,8 +54,7 @@ Querying and displaying student data.<br/>
 The file demonstrates how to interact with the StudentDAO in a Spring Boot environment.<br/>
 
 <h2>Diagram</h2>
-!<img src="C:\Users\johnf\OneDrive\Εικόνες\Στιγμιότυπα οθόνης\Screenshot 2024-09-20 143745" width="100" height="100">
-
+![diagram](https://github.com/user-attachments/assets/9403970f-8f58-4fe5-a213-ecb63388e221)
 
 <h1>student_analysis.py</h1>
 <h3>Description:</h3> A Python script that interacts with the Spring Boot REST API to perform student data analysis.
