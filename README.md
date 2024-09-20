@@ -53,7 +53,8 @@ Reading, updating, and deleting students.<br/>
 Querying and displaying student data.<br/>
 The file demonstrates how to interact with the StudentDAO in a Spring Boot environment.<br/>
 
-![Screenshot 2024-09-20 143745](https://github.com/user-attachments/assets/2c482e03-e65c-4176-aedd-288daacfe1c8)
+<h2>Diagram</h2>
+!<img src="C:\Users\johnf\OneDrive\Εικόνες\Στιγμιότυπα οθόνης\Screenshot 2024-09-20 143745" width="100" height="100">
 
 
 <h1>student_analysis.py</h1>
