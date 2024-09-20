@@ -77,7 +77,15 @@ Defines the structure for the student table, which stores student records.
 <strong>email:</strong> A VARCHAR field for the student's email address.<br/> 
 <strong>grade:</strong> A DECIMAL(3,2) field for the student's grade, constrained to be between 0.00 and 10.00.<br/> 
 
+<br/> 
+<br/> 
+
+![sql](https://github.com/user-attachments/assets/d3f6450a-e3dc-408a-8aae-b5c988acd9b4)
+
+
 <h3>Table Constraints:</h3>
 The id field is the primary key.
 A CHECK constraint ensures that the grade value must be within the valid range of 0.00 to 10.00.
 This script sets up the foundational database schema required for the Spring Boot application to perform CRUD operations on student data.
+
+
